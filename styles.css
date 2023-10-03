@@ -1,0 +1,28 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box{
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ;
+    margin: 3px;
+}
+
+.box p{
+    margin: 0;
+    
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    width: 10%;
+    
+}
